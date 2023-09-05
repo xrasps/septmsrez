@@ -1,12 +1,9 @@
-*,
-*::after,
-*::before {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     color: #000;
-    font-family: "SF Pro Display";
 }
 
 .container {
@@ -17,6 +14,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: #F6F6F6;
 }
 
 /* banner */
@@ -27,4 +25,443 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.first_block {
+
+    background-image: url(../img/banner.png);
+    height: 940px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gr_green {
+    background: linear-gradient(132deg, #428E5F -17.38%, #112120 78.4%), #204434;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 900px;
+}
+
+.menu_items {
+    display: flex;
+    gap: 70px;
+}
+
+.items {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.btn {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.btn_signup {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn_login {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 100px;
+    background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFF;
+    padding: 13px 40px;
+}
+
+.subtitle {
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 20px 30px;
+    width: 227px;
+}
+
+.subtit {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.button {
+    color: #FEFEFE;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 27px;
+    background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    padding: 36px 46px;
+    width: 263px;
+    margin-top: 40px;
+}
+
+.banner {
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+/* 2bl */
+.txt_two_block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn_two{
+    margin-top: 40px;
+}
+.btn_two_bl{
+    padding: 25px 45px;
+    color: #FEFEFE;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 27px;
+background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
+}
+.img_bl_two_all{
+    
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.arrow{
+    position: relative;
+    left: 480px;
+    top: 190px;
+}
+.two_block{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 0;
+    gap: 60px;
+}
+.circle{
+    position: absolute;
+}
+.two_block h2{
+    text-align: left;
+}
+.subtit_tw_bl {
+    color: #0F1F1C;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.txt_tw_bl {
+    width: 456px;
+    color: #0F1F1C;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+/* 3bl */
+.img_three_bl {
+    width: 478px;
+    height: 537px;
+    border-radius: 50px;
+}
+
+.img_bl_three {
+    margin: 150px 0;
+}
+
+h4 {
+    color: #0F1F1C;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.name {
+    color: #0F1F1C;
+    font-family: Poppins;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.rev {
+    color: #0F1F1C;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.reviwes {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.or_img_circl {
+    border-radius: 71.5px;
+    background: #FA9;
+}
+
+.subtit_three {
+    color: #0F1F1C;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 491px;
+    opacity: 0.5;
+}
+
+.three_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt_bl_three h4 {
+    width: 565px;
+}
+
+.quantity_star {
+    display: flex;
+    gap: 15px;
+}
+
+.txt_bl_three {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* 4bl */
+.four_block {
+    width: 1200px;
+    height: 581px;
+    border-radius: 60px;
+    background: #FFF;
+    padding: 74px 74px;
+    margin: 130px 0;
+}
+
+.four_el {
+    background-image: url(../img/four_elements.png);
+    width: 1086px;
+    height: 451px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txt_four {
+    color: #0F1F1C;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.btn_four_bl {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 27px;
+    background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
+    padding: 25px 55px;
+}
+
+.btn_four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.four_el h4 {
+    width: 519px;
+}
+
+.all_txt_four_bl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* 5bl */
+h2 {
+    color: #0F1F1C;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.five_block h2 {
+    margin-bottom: 60px;
+}
+
+input::placeholder {
+    color: #0F1F1C;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.input_txt {
+    border: none;
+    background: none;
+    width: 300px;
+    height: 50px;
+}
+
+.input_btn {
+    border-radius: 35px;
+    background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    padding: 33px 85px;
+}
+
+.forma {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    height: 129px;
+    border-radius: 35px;
+    background: linear-gradient(0deg, #FFF 0%, #FFF 100%), #C4C4C4;
+}
+
+.footer {
+    margin: 120px 0 80px;
+}
+
+.i_footer {
+    color: #838B89;
+}
+
+.logo_footer {
+    color: #ff7c4e;
+}
+
+@media screen and (max-width: 678px) {
+    .menu_items {
+        display: flex;
+        gap: 30px;
+    }
+    .first_block{
+        display: none;
+    }
+    .arrow{
+        width: 50px;
+    }
+    .three_block{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .four_block{
+        max-width: 1200px;
+    }
+    .four_el{
+        max-width: 1086px;
+    }
+    .forma{
+        max-width: 800px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .subtit_tw_bl{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .subtit_tw_bl {
+        max-width: 456px;
+    font-size: 14px;
+    }
+    .two_block{
+        flex-wrap: wrap;
+    }
+    h4{
+        font-size: 20px;
+    }
 }
