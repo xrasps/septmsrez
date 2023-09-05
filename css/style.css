@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+    font-family: "SF Pro Display";
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/SFProDisplay-Light.ttf');
+    src: url('fonts/SFProDisplay-LightItalic.ttf');
+    src: url('fonts/SFProDisplay-Regular.ttf');
+    src: url('fonts/SFProDisplay-RegularItalic.ttf');
+    src: url('fonts/SFProDisplay-SemiBold.ttf');
+    font-weight: 300, 350, 400, 450, 600;
+}
